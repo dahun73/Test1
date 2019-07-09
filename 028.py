@@ -11,3 +11,12 @@ for i in seq1:
         li.append('C')
 print(li)
 print(''.join(li))
+
+
+
+compseq = ""
+compDic = {"A":"T", "C":"G", "G":"C", "T":"A"}
+for s in seq1:
+    compseq += compDic[s]
+
+print(compseq)
