@@ -1,3 +1,2 @@
-Hello
-12345
-abcde
+This is a test file.
+Hello!

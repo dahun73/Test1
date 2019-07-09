@@ -8,3 +8,20 @@ def fib(n):
 
 for i in range(1,11,1):
     print("a"+str(i),fib(i))
+
+
+#----------------------
+
+"""
+[0, 1]
+.append(-1, -2)
+-> [0, 1, 1]
+"""
+
+
+l = [0, 1]
+for i in range(10):
+    val = l[-2] + l[-1]
+    l.append(val)
+
+print(l)
