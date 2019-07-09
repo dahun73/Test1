@@ -9,3 +9,4 @@ for s in seq1:
 
 
 print("C" in seq1)
+
